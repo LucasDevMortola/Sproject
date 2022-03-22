@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_vantagem_item_vantagems",
+  "info": {
+    "displayName": "vantagem",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "richtext"
+    }
+  }
+}

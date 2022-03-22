@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_time_equipes",
+  "info": {
+    "displayName": "equipe",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "nome": {
+      "type": "string"
+    },
+    "funcao": {
+      "type": "string"
+    },
+    "redes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "redes-sociais.redes-sociais"
+    }
+  }
+}

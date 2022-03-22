@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_secao_home_secaos",
+  "info": {
+    "displayName": "secao",
+    "icon": "cubes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "paragrafo1": {
+      "type": "string"
+    },
+    "paragrafo2": {
+      "type": "string"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnSaibaMais": {
+      "type": "component",
+      "repeatable": false,
+      "component": "btn-page.btn-saiba-mais"
+    }
+  }
+}

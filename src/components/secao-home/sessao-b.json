@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_secao_home_sessao_bs",
+  "info": {
+    "displayName": "sessaoB",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "btnSaibaMais": {
+      "type": "component",
+      "repeatable": false,
+      "component": "btn-page.btn-saiba-mais"
+    }
+  }
+}

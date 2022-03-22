@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "redesSociais": {
+      "displayName": "redesSociais",
+      "type": "component",
+      "repeatable": true,
+      "component": "redes-sociais.redes-sociais"
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-header.menu"
+    },
+    "localizacao": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "endereco": {
+      "displayName": "Endereco",
+      "type": "component",
+      "repeatable": false,
+      "component": "endereco.endereco"
+    },
+    "contatoComercial": {
+      "displayName": "contatoComercial",
+      "type": "component",
+      "repeatable": false,
+      "component": "contato.contato-comercial"
+    },
+    "contatoSuporte": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contato.contato-comercial"
+    }
+  }
+}

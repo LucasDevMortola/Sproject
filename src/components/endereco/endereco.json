@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_endereco_enderecos",
+  "info": {
+    "displayName": "Endereco",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rua": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "pais": {
+      "type": "string"
+    },
+    "icone": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_card_empresas",
+  "info": {
+    "displayName": "empresa",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    }
+  }
+}

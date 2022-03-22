@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_texto_generico_conteudos",
+  "info": {
+    "displayName": "conteudo",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "text"
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}

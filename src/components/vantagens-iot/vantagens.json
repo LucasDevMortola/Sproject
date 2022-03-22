@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_vantagens_iot_vantagens",
+  "info": {
+    "displayName": "vantagens",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "icone": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "string"
+    }
+  }
+}

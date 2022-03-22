@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sobreSirros": {
+      "displayName": "conteudo",
+      "type": "component",
+      "repeatable": true,
+      "component": "texto-generico.conteudo"
+    },
+    "imgemCloudComputing": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "timeSirros": {
+      "displayName": "equipe",
+      "type": "component",
+      "repeatable": true,
+      "component": "time.equipe"
+    },
+    "vantagens": {
+      "displayName": "vantagens",
+      "type": "component",
+      "repeatable": true,
+      "component": "vantagens-iot.vantagens"
+    },
+    "socialMedia": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

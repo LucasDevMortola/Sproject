@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "secaoA": {
+      "displayName": "secao",
+      "type": "component",
+      "repeatable": false,
+      "component": "secao-home.secao"
+    },
+    "sessaoB": {
+      "displayName": "sessaoB",
+      "type": "component",
+      "repeatable": false,
+      "component": "secao-home.sessao-b"
+    },
+    "secaoC": {
+      "displayName": "secaoC",
+      "type": "component",
+      "repeatable": false,
+      "component": "secao-page.secao-c"
+    },
+    "secaoD": {
+      "displayName": "secaoD",
+      "type": "component",
+      "repeatable": false,
+      "component": "secao-page.secao-d"
+    },
+    "secaoE": {
+      "displayName": "secaoE",
+      "type": "component",
+      "repeatable": false,
+      "component": "secao-page.secao-e"
+    },
+    "formulario": {
+      "displayName": "formulario",
+      "type": "component",
+      "repeatable": false,
+      "component": "form-page.formulario"
+    }
+  }
+}

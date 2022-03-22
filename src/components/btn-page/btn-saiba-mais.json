@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_btn_page_btn_saiba_mais",
+  "info": {
+    "displayName": "btnSaibaMais",
+    "icon": "arrow-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

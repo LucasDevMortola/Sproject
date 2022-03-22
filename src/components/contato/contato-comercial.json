@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_contato_contato_comercials",
+  "info": {
+    "displayName": "contatoComercial",
+    "icon": "font",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "icone": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}

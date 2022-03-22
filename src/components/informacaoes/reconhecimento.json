@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_informacaoes_reconhecimentos",
+  "info": {
+    "displayName": "reconhecimento",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "paragrafo": {
+      "type": "string"
+    },
+    "imagem": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "tituloCompeticao": {
+      "displayName": "info-titulo",
+      "type": "component",
+      "repeatable": false,
+      "component": "titulo.info-titulo"
+    }
+  }
+}

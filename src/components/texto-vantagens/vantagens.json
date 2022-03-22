@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_texto_vantagens_vantagens",
+  "info": {
+    "displayName": "vantagens",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "vantagem": {
+      "displayName": "vantagem",
+      "type": "component",
+      "repeatable": true,
+      "component": "vantagem-item.vantagem"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_titulo_info_titulos",
+  "info": {
+    "displayName": "info-titulo",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "periodo": {
+      "type": "string"
+    }
+  }
+}

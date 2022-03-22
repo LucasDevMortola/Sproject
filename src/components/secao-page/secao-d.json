@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_secao_page_secao_ds",
+  "info": {
+    "displayName": "secaoD",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "string"
+    },
+    "btnSaibaMais": {
+      "type": "component",
+      "repeatable": true,
+      "component": "btn-page.btn-saiba-mais"
+    }
+  }
+}

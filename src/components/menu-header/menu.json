@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menu_header_menus",
+  "info": {
+    "displayName": "menu",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "itemMenu": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_secao_devices_secaos",
+  "info": {
+    "displayName": "secao",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "paragrafo": {
+      "type": "string"
+    },
+    "imagem": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

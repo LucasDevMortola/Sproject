@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "devices",
+  "info": {
+    "singularName": "device",
+    "pluralName": "devices",
+    "displayName": "Devices",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "secao": {
+      "displayName": "secao",
+      "type": "component",
+      "repeatable": true,
+      "component": "secao-devices.secao"
+    }
+  }
+}

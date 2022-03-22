@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_header_botao_logins",
+  "info": {
+    "displayName": "botao-login",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "descricao": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

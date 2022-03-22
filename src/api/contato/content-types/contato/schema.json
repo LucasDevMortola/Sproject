@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "contatos",
+  "info": {
+    "singularName": "contato",
+    "pluralName": "contatos",
+    "displayName": "Contato"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "string"
+    },
+    "formContato": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form-page.formulario"
+    },
+    "tituloSocialMedia": {
+      "type": "string"
+    },
+    "paragrafo": {
+      "type": "string"
+    },
+    "iconSocialMedia": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

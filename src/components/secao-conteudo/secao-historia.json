@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_secao_conteudo_secao_historias",
+  "info": {
+    "displayName": "secaoHistoria",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "texto": {
+      "type": "richtext"
+    }
+  }
+}

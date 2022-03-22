@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_redes_sociais_redes_sociais",
+  "info": {
+    "displayName": "redesSociais",
+    "icon": "baby",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icone": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

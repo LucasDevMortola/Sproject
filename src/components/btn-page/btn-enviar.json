@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_btn_page_btn_enviars",
+  "info": {
+    "displayName": "btnEnviar",
+    "icon": "battery-half"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
